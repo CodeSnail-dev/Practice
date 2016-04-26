@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<employee>
+        <name id="1">John Doe</name>
+        <age>43</age>
+        <sex>M</sex>
+        <department>Operations</department>
+</employee>

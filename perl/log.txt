@@ -1,0 +1,114 @@
+CPAN: Storable loaded ok (v2.20)
+Going to read '/home/lucid/.cpan/Metadata'
+  Database was generated on Tue, 05 Apr 2016 03:17:02 GMT
+Running install for module 'YAML'
+CPAN: Data::Dumper loaded ok (v2.124)
+'YAML' not installed, falling back to Data::Dumper and Storable to read prefs '/home/lucid/.cpan/prefs'
+Running make for I/IN/INGY/YAML-1.15.tar.gz
+CPAN: Digest::SHA loaded ok (v5.47)
+CPAN: Compress::Zlib loaded ok (v2.02)
+Checksum for /home/lucid/.cpan/sources/authors/id/I/IN/INGY/YAML-1.15.tar.gz ok
+CPAN: Archive::Tar loaded ok (v1.52)
+YAML-1.15/
+YAML-1.15/META.yml
+YAML-1.15/LICENSE
+YAML-1.15/Makefile.PL
+YAML-1.15/README
+YAML-1.15/t/
+YAML-1.15/t/dump-perl-types-512.t
+YAML-1.15/t/load-spec.t
+YAML-1.15/t/dump-file-utf8.t
+YAML-1.15/t/node-info.t
+YAML-1.15/t/dump-stringify.t
+YAML-1.15/t/inbox.t
+YAML-1.15/t/basic-tests.t
+YAML-1.15/t/references.t
+YAML-1.15/t/dump-code.t
+YAML-1.15/t/dump-works.t
+YAML-1.15/t/load-passes.t
+YAML-1.15/t/2-scalars.t
+YAML-1.15/t/dump-file.t
+YAML-1.15/t/regexp.t
+YAML-1.15/t/dump-tests-512.t
+YAML-1.15/t/load-fails.t
+YAML-1.15/t/bugs-emailed.t
+YAML-1.15/t/dump-nested.t
+YAML-1.15/t/dump-synopsis.t
+YAML-1.15/t/dump-basics.t
+YAML-1.15/t/marshall.t
+YAML-1.15/t/TestYAMLBase.pm
+YAML-1.15/t/load-slides.t
+YAML-1.15/t/dump-opts.t
+YAML-1.15/t/dump-perl-types.t
+YAML-1.15/t/release-pod-syntax.t
+YAML-1.15/t/freeze-thaw.t
+YAML-1.15/t/changes.t
+YAML-1.15/t/export.t
+YAML-1.15/t/TestYAML.pm
+YAML-1.15/t/long-quoted-value.yaml
+YAML-1.15/t/dump-perl-types-514.t
+YAML-1.15/t/global-api.t
+YAML-1.15/t/svk.t
+YAML-1.15/t/dump-tests.t
+YAML-1.15/t/bugs-rt.t
+YAML-1.15/t/000-compile-modules.t
+YAML-1.15/t/dump-blessed-glob.t
+YAML-1.15/t/test.t
+YAML-1.15/t/load-works.t
+YAML-1.15/t/dump-stringy-numbers.t
+YAML-1.15/t/issue-149.t
+YAML-1.15/t/rt-90593.t
+YAML-1.15/t/dump-tests-514.t
+YAML-1.15/t/pugs-objects.t
+YAML-1.15/t/svk-config.yaml
+YAML-1.15/t/load-tests.t
+YAML-1.15/t/dump-blessed.t
+YAML-1.15/t/errors.t
+YAML-1.15/xt/
+YAML-1.15/xt/pmv.t
+YAML-1.15/xt/meta.t
+YAML-1.15/xt/pod.t
+YAML-1.15/lib/
+YAML-1.15/lib/YAML.pm
+YAML-1.15/lib/YAML.pod
+YAML-1.15/lib/YAML/
+YAML-1.15/lib/YAML/Dumper.pm
+YAML-1.15/lib/YAML/Marshall.pm
+YAML-1.15/lib/YAML/Loader.pod
+YAML-1.15/lib/YAML/Loader.pm
+YAML-1.15/lib/YAML/Any.pod
+YAML-1.15/lib/YAML/Tag.pm
+YAML-1.15/lib/YAML/Tag.pod
+YAML-1.15/lib/YAML/Mo.pm
+YAML-1.15/lib/YAML/Types.pm
+YAML-1.15/lib/YAML/Any.pm
+YAML-1.15/lib/YAML/Error.pm
+YAML-1.15/lib/YAML/Node.pm
+YAML-1.15/lib/YAML/Loader/
+YAML-1.15/lib/YAML/Loader/Base.pod
+YAML-1.15/lib/YAML/Loader/Base.pm
+YAML-1.15/lib/YAML/Error.pod
+YAML-1.15/lib/YAML/Marshall.pod
+YAML-1.15/lib/YAML/Types.pod
+YAML-1.15/lib/YAML/Dumper.pod
+YAML-1.15/lib/YAML/Node.pod
+YAML-1.15/lib/YAML/Dumper/
+YAML-1.15/lib/YAML/Dumper/Base.pod
+YAML-1.15/lib/YAML/Dumper/Base.pm
+YAML-1.15/MANIFEST
+YAML-1.15/Changes
+YAML-1.15/CONTRIBUTING
+YAML-1.15/META.json
+CPAN: File::Temp loaded ok (v0.22)
+
+  CPAN.pm: Going to build I/IN/INGY/YAML-1.15.tar.gz
+
+Checking if your kit is complete...
+Looks good
+Writing Makefile for YAML
+Could not read '/home/lucid/.cpan/build/YAML-1.15-sT7ZqD/META.yml'. Falling back to other methods to determine prerequisites
+---- Unsatisfied dependencies detected during ----
+----           INGY/YAML-1.15.tar.gz          ----
+    Test::YAML [requires]
+Shall I follow them and prepend them to the queue
+of modules we are processing right now? [yes] 

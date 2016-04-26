@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<pets>
+ <cat>
+ <name>Madness</name>
+ <dob>1 February 2004</dob>
+ <price>150</price>
+ </cat>
+ <dog>
+ <name>Maggie</name>
+ <dob>12 October 2002</dob>
+ <price>75</price>
+ <owner>Rosie</owner>
+ </dog>
+ <cat>
+ <name>Little</name>
+ <dob>23 June 2006</dob>
+ <price>25</price>
+ </cat>
+</pets>
