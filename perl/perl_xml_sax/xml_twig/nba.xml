@@ -1,0 +1,578 @@
+<stats>
+<player>
+<name>Houston, Allan</name>
+<g>69</g>
+<ppg>20.1</ppg>
+<rpg>3.4</rpg>
+<apg>2.8</apg>
+<blk>14</blk>
+</player>
+<player>
+<name>Sprewell, Latrell</name>
+<g>69</g>
+<ppg>19.2</ppg>
+<rpg>4.5</rpg>
+<apg>4.0</apg>
+<blk>15</blk>
+</player>
+<player>
+<name>Ewing, Patrick</name>
+<g>49</g>
+<ppg>14.6</ppg>
+<rpg>10.0</rpg>
+<apg>1.0</apg>
+<blk>68</blk>
+</player>
+<player>
+<name>Johnson, Larry</name>
+<g>57</g>
+<ppg>11.1</ppg>
+<rpg>5.3</rpg>
+<apg>2.6</apg>
+<blk>7</blk>
+</player>
+<player>
+<name>Camby, Marcus</name>
+<g>48</g>
+<ppg>10.2</ppg>
+<rpg>7.7</rpg>
+<apg>0.7</apg>
+<blk>95</blk>
+</player>
+<player>
+<name>Thomas, Kurt</name>
+<g>67</g>
+<ppg>7.9</ppg>
+<rpg>6.3</rpg>
+<apg>1.0</apg>
+<blk>36</blk>
+</player>
+<player>
+<name>Ward, Charlie</name>
+<g>59</g>
+<ppg>7.5</ppg>
+<rpg>3.1</rpg>
+<apg>4.3</apg>
+<blk>12</blk>
+</player>
+<player>
+<name>Wallace, John</name>
+<g>55</g>
+<ppg>6.6</ppg>
+<rpg>2.3</rpg>
+<apg>0.4</apg>
+<blk>14</blk>
+</player>
+<player>
+<name>Childs, Chris</name>
+<g>61</g>
+<ppg>5.3</ppg>
+<rpg>1.9</rpg>
+<apg>4.1</apg>
+<blk>3</blk>
+</player>
+<player>
+<name>Duncan, Tim</name>
+<g>66</g>
+<ppg>23.1</ppg>
+<rpg>12.4</rpg>
+<apg>3.1</apg>
+<blk>142</blk>
+</player>
+<player>
+<name>Robinson, David</name>
+<g>68</g>
+<ppg>17.1</ppg>
+<rpg>9.8</rpg>
+<apg>1.8</apg>
+<blk>157</blk>
+</player>
+<player>
+<name>Johnson, Avery</name>
+<g>70</g>
+<ppg>11.4</ppg>
+<rpg>2.0</rpg>
+<apg>6.1</apg>
+<blk>15</blk>
+</player>
+<player>
+<name>Porter, Terry</name>
+<g>58</g>
+<ppg>9.3</ppg>
+<rpg>2.9</rpg>
+<apg>3.2</apg>
+<blk>7</blk>
+</player>
+<player>
+<name>Elie, Mario</name>
+<g>70</g>
+<ppg>7.9</ppg>
+<rpg>3.2</rpg>
+<apg>2.5</apg>
+<blk>9</blk>
+</player>
+<player>
+<name>Jackson, Jaren</name>
+<g>69</g>
+<ppg>6.7</ppg>
+<rpg>2.3</rpg>
+<apg>1.5</apg>
+<blk>7</blk>
+</player>
+<player>
+<name>Iverson, Allen</name>
+<g>58</g>
+<ppg>29.1</ppg>
+<rpg>3.8</rpg>
+<apg>4.7</apg>
+<blk>5</blk>
+</player>
+<player>
+<name>Kukoc, Toni</name>
+<g>43</g>
+<ppg>15.1</ppg>
+<rpg>5.2</rpg>
+<apg>4.7</apg>
+<blk>27</blk>
+</player>
+<player>
+<name>Oneal, Shaquille</name>
+<g>70</g>
+<ppg>29.1</ppg>
+<rpg>13.9</rpg>
+<apg>3.7</apg>
+<blk>214</blk>
+</player>
+<player>
+<name>Bryant, Kobe</name>
+<g>56</g>
+<ppg>22.5</ppg>
+<rpg>6.1</rpg>
+<apg>4.7</apg>
+<blk>55</blk>
+</player>
+<player>
+<name>Rice, Glen</name>
+<g>70</g>
+<ppg>16.1</ppg>
+<rpg>4.1</rpg>
+<apg>2.2</apg>
+<blk>12</blk>
+</player>
+<player>
+<name>Harper, Ron</name>
+<g>71</g>
+<ppg>6.7</ppg>
+<rpg>4.2</rpg>
+<apg>3.4</apg>
+<blk>34</blk>
+</player>
+<player>
+<name>Fisher, Derek</name>
+<g>71</g>
+<ppg>6.5</ppg>
+<rpg>1.9</rpg>
+<apg>2.9</apg>
+<blk>3</blk>
+</player>
+<player>
+<name>Fox, Rick</name>
+<g>71</g>
+<ppg>6.3</ppg>
+<rpg>2.3</rpg>
+<apg>1.6</apg>
+<blk>26</blk>
+</player>
+<player>
+<name>Wallace, Rasheed</name>
+<g>68</g>
+<ppg>16.1</ppg>
+<rpg>7.1</rpg>
+<apg>1.7</apg>
+<blk>92</blk>
+</player>
+<player>
+<name>Smith, Steve</name>
+<g>69</g>
+<ppg>14.7</ppg>
+<rpg>4.0</rpg>
+<apg>2.5</apg>
+<blk>29</blk>
+</player>
+<player>
+<name>Stoudamire, Damon</name>
+<g>65</g>
+<ppg>12.8</ppg>
+<rpg>3.1</rpg>
+<apg>5.4</apg>
+<blk>1</blk>
+</player>
+<player>
+<name>Pippen, Scottie</name>
+<g>69</g>
+<ppg>12.6</ppg>
+<rpg>6.4</rpg>
+<apg>5.0</apg>
+<blk>38</blk>
+</player>
+<player>
+<name>Sabonis, Arvydas</name>
+<g>62</g>
+<ppg>11.8</ppg>
+<rpg>7.9</rpg>
+<apg>1.8</apg>
+<blk>77</blk>
+</player>
+<player>
+<name>Wells, Bonzi</name>
+<g>53</g>
+<ppg>9.0</ppg>
+<rpg>2.6</rpg>
+<apg>1.5</apg>
+<blk>10</blk>
+</player>
+<player>
+<name>Schrempf, Detlef</name>
+<g>67</g>
+<ppg>7.4</ppg>
+<rpg>4.3</rpg>
+<apg>2.5</apg>
+<blk>16</blk>
+</player>
+<player>
+<name>Grant, Brian</name>
+<g>50</g>
+<ppg>6.8</ppg>
+<rpg>5.3</rpg>
+<apg>0.9</apg>
+<blk>20</blk>
+</player>
+<player>
+<name>Miller, Reggie</name>
+<g>70</g>
+<ppg>18.6</ppg>
+<rpg>3.0</rpg>
+<apg>2.3</apg>
+<blk>23</blk>
+</player>
+<player>
+<name>Rose, Jalen</name>
+<g>68</g>
+<ppg>17.8</ppg>
+<rpg>4.7</rpg>
+<apg>3.9</apg>
+<blk>44</blk>
+</player>
+<player>
+<name>Smits, Rik</name>
+<g>67</g>
+<ppg>13.2</ppg>
+<rpg>5.1</rpg>
+<apg>1.1</apg>
+<blk>89</blk>
+</player>
+<player>
+<name>Croshere, Austin</name>
+<g>69</g>
+<ppg>10.4</ppg>
+<rpg>6.4</rpg>
+<apg>1.1</apg>
+<blk>54</blk>
+</player>
+<player>
+<name>Davis, Dale</name>
+<g>63</g>
+<ppg>10.2</ppg>
+<rpg>9.8</rpg>
+<apg>0.9</apg>
+<blk>81</blk>
+</player>
+<player>
+<name>Carter, Vince</name>
+<g>69</g>
+<ppg>25.9</ppg>
+<rpg>5.9</rpg>
+<apg>3.8</apg>
+<blk>72</blk>
+</player>
+<player>
+<name>Mcgrady, Tracy</name>
+<g>66</g>
+<ppg>14.8</ppg>
+<rpg>6.1</rpg>
+<apg>3.1</apg>
+<blk>130</blk>
+</player>
+<player>
+<name>Christie, Doug</name>
+<g>65</g>
+<ppg>13.0</ppg>
+<rpg>4.0</rpg>
+<apg>4.5</apg>
+<blk>41</blk>
+</player>
+<player>
+<name>Davis, Antonio</name>
+<g>66</g>
+<ppg>11.6</ppg>
+<rpg>8.9</rpg>
+<apg>1.3</apg>
+<blk>82</blk>
+</player>
+<player>
+<name>Curry, Dell</name>
+<g>55</g>
+<ppg>7.8</ppg>
+<rpg>1.5</rpg>
+<apg>1.3</apg>
+<blk>9</blk>
+</player>
+<player>
+<name>Willis, Kevin</name>
+<g>69</g>
+<ppg>7.6</ppg>
+<rpg>6.3</rpg>
+<apg>0.7</apg>
+<blk>42</blk>
+</player>
+<player>
+<name>Oakley, Charles</name>
+<g>68</g>
+<ppg>7.0</ppg>
+<rpg>6.7</rpg>
+<apg>3.4</apg>
+<blk>39</blk>
+</player>
+<player>
+<name>Payton, Gary</name>
+<g>70</g>
+<ppg>23.9</ppg>
+<rpg>6.3</rpg>
+<apg>8.9</apg>
+<blk>11</blk>
+</player>
+<player>
+<name>Baker, Vin</name>
+<g>67</g>
+<ppg>17.3</ppg>
+<rpg>7.9</rpg>
+<apg>2.0</apg>
+<blk>55</blk>
+</player>
+<player>
+<name>Webber, Chris</name>
+<g>66</g>
+<ppg>24.7</ppg>
+<rpg>10.6</rpg>
+<apg>4.3</apg>
+<blk>111</blk>
+</player>
+<player>
+<name>Williams, Jason</name>
+<g>68</g>
+<ppg>12.3</ppg>
+<rpg>2.9</rpg>
+<apg>7.6</apg>
+<blk>7</blk>
+</player>
+<player>
+<name>Divac, Vlade</name>
+<g>69</g>
+<ppg>12.0</ppg>
+<rpg>7.8</rpg>
+<apg>2.8</apg>
+<blk>93</blk>
+</player>
+<player>
+<name>Anderson, Nick</name>
+<g>62</g>
+<ppg>11.1</ppg>
+<rpg>4.7</rpg>
+<apg>1.7</apg>
+<blk>14</blk>
+</player>
+<player>
+<name>Stojakovic, Predrag</name>
+<g>61</g>
+<ppg>10.9</ppg>
+<rpg>3.5</rpg>
+<apg>1.3</apg>
+<blk>6</blk>
+</player>
+<player>
+<name>Williamson, Corliss</name>
+<g>63</g>
+<ppg>10.1</ppg>
+<rpg>3.8</rpg>
+<apg>1.1</apg>
+<blk>17</blk>
+</player>
+<player>
+<name>Barry, Jon</name>
+<g>57</g>
+<ppg>8.4</ppg>
+<rpg>2.6</rpg>
+<apg>2.5</apg>
+<blk>7</blk>
+</player>
+<player>
+<name>Funderburke, Lawrence</name>
+<g>64</g>
+<ppg>6.5</ppg>
+<rpg>3.2</rpg>
+<apg>0.4</apg>
+<blk>15</blk>
+</player>
+<player>
+<name>Robinson, Cliff</name>
+<g>67</g>
+<ppg>18.6</ppg>
+<rpg>4.4</rpg>
+<apg>2.9</apg>
+<blk>47</blk>
+</player>
+<player>
+<name>Hardaway, Anfernee</name>
+<g>47</g>
+<ppg>17.0</ppg>
+<rpg>5.5</rpg>
+<apg>4.7</apg>
+<blk>33</blk>
+</player>
+<player>
+<name>Kidd, Jason</name>
+<g>67</g>
+<ppg>14.3</ppg>
+<rpg>7.2</rpg>
+<apg>10.1</apg>
+<blk>28</blk>
+</player>
+<player>
+<name>Gugliotta, Tom</name>
+<g>54</g>
+<ppg>13.7</ppg>
+<rpg>7.9</rpg>
+<apg>2.3</apg>
+<blk>31</blk>
+</player>
+<player>
+<name>Rogers, Rodney</name>
+<g>69</g>
+<ppg>13.6</ppg>
+<rpg>5.4</rpg>
+<apg>1.9</apg>
+<blk>44</blk>
+</player>
+<player>
+<name>Mourning, Alonzo</name>
+<g>66</g>
+<ppg>22.4</ppg>
+<rpg>9.7</rpg>
+<apg>1.6</apg>
+<blk>261</blk>
+</player>
+<player>
+<name>Mashburn, Jamal</name>
+<g>64</g>
+<ppg>17.8</ppg>
+<rpg>5.2</rpg>
+<apg>4.1</apg>
+<blk>14</blk>
+</player>
+<player>
+<name>Hardaway, Tim</name>
+<g>43</g>
+<ppg>13.7</ppg>
+<rpg>2.9</rpg>
+<apg>7.5</apg>
+<blk>3</blk>
+</player>
+<player>
+<name>Lenard, Voshon</name>
+<g>53</g>
+<ppg>11.9</ppg>
+<rpg>2.9</rpg>
+<apg>2.6</apg>
+<blk>15</blk>
+</player>
+<player>
+<name>Brown, Pj</name>
+<g>67</g>
+<ppg>10.3</ppg>
+<rpg>7.7</rpg>
+<apg>1.8</apg>
+<blk>50</blk>
+</player>
+<player>
+<name>Majerle, Dan</name>
+<g>56</g>
+<ppg>7.4</ppg>
+<rpg>5.0</rpg>
+<apg>2.9</apg>
+<blk>15</blk>
+</player>
+<player>
+<name>Malone, Karl</name>
+<g>69</g>
+<ppg>25.9</ppg>
+<rpg>9.7</rpg>
+<apg>3.8</apg>
+<blk>65</blk>
+</player>
+<player>
+<name>Russell, Bryon</name>
+<g>69</g>
+<ppg>14.3</ppg>
+<rpg>5.2</rpg>
+<apg>1.9</apg>
+<blk>18</blk>
+</player>
+<player>
+<name>Hornacek, Jeff</name>
+<g>66</g>
+<ppg>12.6</ppg>
+<rpg>2.4</rpg>
+<apg>2.7</apg>
+<blk>15</blk>
+</player>
+<player>
+<name>Stockton, John</name>
+<g>69</g>
+<ppg>12.0</ppg>
+<rpg>2.6</rpg>
+<apg>8.7</apg>
+<blk>13</blk>
+</player>
+<player>
+<name>Eisley, Howard</name>
+<g>69</g>
+<ppg>8.8</ppg>
+<rpg>2.1</rpg>
+<apg>4.1</apg>
+<blk>9</blk>
+</player>
+<player>
+<name>Gilliam, Armen</name>
+<g>37</g>
+<ppg>6.3</ppg>
+<rpg>3.8</rpg>
+<apg>0.9</apg>
+<blk>12</blk>
+</player>
+<player>
+<name>Polynice, Olden</name>
+<g>69</g>
+<ppg>5.1</ppg>
+<rpg>5.8</rpg>
+<apg>0.5</apg>
+<blk>69</blk>
+</player>
+<player>
+<name>Ostertag, Greg</name>
+<g>68</g>
+<ppg>4.6</ppg>
+<rpg>5.7</rpg>
+<apg>0.2</apg>
+<blk>134</blk>
+</player>
+</stats>

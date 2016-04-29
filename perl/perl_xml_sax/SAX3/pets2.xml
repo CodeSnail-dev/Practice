@@ -1,0 +1,6 @@
+<stock>
+<item type="iguana" cost="124.42" location="stockroom" age="1"/>
+<item type="pig" cost="15" location="floor" age="0.5"/>
+<item type="parrot" cost="700" location="cage" age="6"/>
+<item type="pig" cost="117.50" location="floor" age="3.2"/>
+</stock>

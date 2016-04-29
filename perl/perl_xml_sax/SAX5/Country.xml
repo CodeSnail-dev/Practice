@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TN_VDE Version="1.0">
+    <Countries Num="1">
+        <Country Id="1410001">
+            <Name Value="中国" Language="CHI">
+                <Pronunciation Value="t&amp;s+o55nK_kwO35" Language="CMN" Format="LH+" />
+                <Pronunciation Value="zhong1_guo2" Language="CMN" Format="PY" />
+            </Name>
+            <Name Value="China" Language="ENG" />
+            <Name Value="ZhongGuo" Language="PYN" />
+        </Country>
+    </Countries>
+</TN_VDE>

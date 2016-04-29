@@ -1,0 +1,36 @@
+package MySAXHandler;
+use base qw(XML::SAX::Base);
+use Data::Dumper;
+use strict;
+
+sub start_document {
+  my ($self, $doc) = @_;
+  # process document start event
+  #print "start_document";
+  #print "\n";
+}
+
+sub start_element {
+  my ($self, $el) = @_;
+  # process element start event
+  print "start_element:\n";
+  print "LocalName: $el->{LocalName}\n";
+  print "NamespaceURI: $el->{NamespaceURI}\n";
+  print "===================================\n";
+  print "Attributes: $el->{Attributes}->{'{}Value'}->{LocalName}\n";
+  print "===================================\n";
+  print "Name: $el->{Name}\n";
+  print "Prefix: $el->{Prefix}\n";
+  print "\n";
+	#%h = (1, 2, 3, 4);
+##	%h = $el->{Attributes};
+##  #for $car (keys %el->{Attributes}) {
+##  for $car (keys %h) {
+##		print "$car\n";
+##	}
+##	print Dumper($el->{Attributes});
+##	print "===================================\n";
+##	print Dumper($el);
+}
+
+1;
