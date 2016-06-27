@@ -2,15 +2,17 @@ package MySAXHandler;
 use base qw(XML::SAX::Base);
 use Data::Dumper;
 use strict;
+#use haha;
+require "haha.pl";
 
 binmode STDOUT, ":utf8";
 
-use constant {
-             JOIN_CHAR => "\t",
-             LINE_CHAR => "\n",
-             PY => "PY",
-             LH => "LH+",
-             }; 
+#use constant {
+#             JOIN_CHAR => "\t",
+#             LINE_CHAR => "\n",
+#             PY => "PY",
+#             LH => "LH+",
+#             }; 
 
 sub EscapeQuote($){     #for sqlite import issue, double quote couldn't be the first character.
   my $ch = shift @_; 
@@ -19,7 +21,7 @@ sub EscapeQuote($){     #for sqlite import issue, double quote couldn't be the f
 }
 
 sub JoinStr{
-    join JOIN_CHAR, @_; 
+    join haha::constant::JOIN_CHAR, @_; 
 }
 
 # File pass from caller

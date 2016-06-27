@@ -1,0 +1,29 @@
+#include "CommonInterface.h"
+#include "NavShell.h"
+#include <stdio.h>
+
+int main()
+{
+	setInitializeToShell(Initialize);
+	setStartNavigationToShell(StartNavigation);
+	setShowNavigationToShell(ShowNavigation);
+	
+	setInitializeToShell(Initialize);
+	setUnInitializeToShell(UnInitialize);
+	setStartNavigationToShell(StartNavigation);
+	setEndNavigationToShell(EndNavigation);
+	setShowNavigationToShell(ShowNavigation);
+	setHideNavigationToShell(HideNavigation);
+	setSendNavigationInfoToShell(SendNavigationInfo);
+	setSetCallBackFunctionToShell(SetCallBackFunction);
+	setSetCalibrationDataToShell(SetCalibrationData);
+	setGetNaviVersionToShell(GetNaviVersion);
+	setCheckMapUpdateToShell(CheckMapUpdate);
+	setStartMapUpdateToShell(StartMapUpdate);
+	setGetMapDataVersionToShell(GetMapDataVersion);
+	setGetModuleVersionToShell(GetModuleVersion);
+	
+	shellStartUp();
+	
+	return 0;
+}

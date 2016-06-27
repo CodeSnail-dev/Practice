@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.6)
+project (Tutorial)
+set(Haha "liucheng")
+Message(Status ${Haha})
+set(Haha "xiaoxiao")
+Message(Status ${Haha})
+set(Haha ${Haha} "Dada")
+Message(Status ${Haha})

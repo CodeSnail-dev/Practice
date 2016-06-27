@@ -1,0 +1,61 @@
+#############create a project#######################################
+cmake_minimum_required(VERSION 2.8)
+
+project(NavHMI)
+SET(TARGET_NAME "NavHMI")
+
+MESSAGE(STATUS "CMAKE_PLATFORM: " ${CMAKE_PLATFORM})
+
+if(${CMAKE_PLATFORM} STREQUAL "win32") 
+  find_package(Qt4 4.7.4 COMPONENTS QtCore QtGui QtOpenGL QtXmlPatterns QtNetwork REQUIRED)
+endif() 
+
+
+############setup head file path######################################
+#Reference library
+include_directories(${PROJECT_SOURCE_DIR}/test/fused-src)
+include_directories(${PROJECT_SOURCE_DIR}/modules/${TNPLATFORM}/include/)
+
+#source code
+
+IF(${CMAKE_PLATFORM} STREQUAL "win32")
+   add_definitions(-D_WINDOWS
+				   -DUNICODE
+				   -DPLATFORM_UNICODE
+				   -DWIN32
+				   -DTN_PLATFORM_WINDOWS
+				   -DTN_PLATFORM_WIN32
+				   -DBOOST_ALL_NO_LIB
+                   -D__WIN32_CPL__
+				   -DLIB_HANDWRITING
+				   -DLIB_HWPINYIN
+				   -DQWT_DLL
+				   -DLIB_VOCALIZER
+				   -DLIB_OPENAL)
+   MESSAGE(STATUS "nor underce ") 
+ENDIF()
+
+###############setup source files###################################
+AUX_SOURCE_DIRECTORY(${PROJECT_SOURCE_DIR}/src/Common/ SOURCE_FILES_COMMON)
+AUX_SOURCE_DIRECTORY(${PROJECT_SOURCE_DIR}/src/Event/ SOURCE_FILES_EVENT)
+
+set(SOURCE_FILES
+	src/main.cpp
+	src/Application.cpp
+	${PROJECT_SOURCE_DIR}/src/Service/AudioService/AudioService.cpp
+	${PROJECT_SOURCE_DIR}/src/Platform/TnHMIAPIEventLog.cpp
+	)
+
+#link libs
+link_directories(${PROJECT_SOURCE_DIR}/modules/${TNPLATFORM}/TelenavAutoNavSDK/lib)
+
+set(PANAIF_HEADER_FILES
+    src/Platform/PanaNaviIF/CI_SoftwareInfrastructureImpl.h
+    src/Platform/PanaNaviIF/CI_AudioHandlingImpl.h
+    )
+
+
+if(${CMAKE_PLATFORM} STREQUAL "win32")
+	QT4_WRAP_CPP(MOC_SRCS ${HEADER_FILES})
+	add_executable(${TARGET_NAME} ${MOC_SRCS} ${SOURCE_FILES} ${HEADER_FILES})
+endif()

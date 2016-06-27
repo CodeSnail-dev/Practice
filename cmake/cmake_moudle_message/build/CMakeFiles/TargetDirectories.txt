@@ -1,0 +1,2 @@
+D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/ALL_BUILD.dir
+D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/ZERO_CHECK.dir

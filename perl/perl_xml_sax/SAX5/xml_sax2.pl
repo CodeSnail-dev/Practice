@@ -9,7 +9,8 @@ my $FN = "ll.txt";
 open($FH, ">$FN");
 print $FH;
 
-MySAXHandler::setFileHandler($FH);
+#MySAXHandler::setFileHandler($FH);
+setFileHandler($FH);
 MySAXHandler::setCityId("0987654321");
 
 my $parser = XML::SAX::ParserFactory->parser(

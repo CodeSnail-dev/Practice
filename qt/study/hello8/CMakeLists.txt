@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 2.8.10)
+
+project(QtApp)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+if(${APPLE})
+elseif(${WIN32})
+    #   set(CMAKE_PREFIX_PATH "C:/Qt/Qt5.4.1/5.4/msvc2013_opengl/lib/cmake")
+    find_package(Qt4 4.8 COMPONENTS QtCore QtGui QtOpenGL QtXmlPatterns QtNetwork REQUIRED)
+endif()
+
+include_directories(
+	${CMAKE_SOURCE_DIR}/include
+)
+
+#set(${HEAD_FILE} ${CMAKE_SOURCE_DIR}/include/NavShellDialog.h)
+
+QT4_WRAP_CPP(example_MOCS ${CMAKE_SOURCE_DIR}/include/NavShellDialog.h)
+
+# Qt demo executable
+add_executable(qtdemo MACOSX_BUNDLE
+	${CMAKE_SOURCE_DIR}/main.cpp
+	${example_MOCS}
+)
+
+target_link_libraries( qtdemo Qt4::QtGui)

@@ -1,0 +1,9 @@
+#include "mainTest.hpp"
+
+int main()
+{
+	char *b[2] = {"123", "456"};
+	
+	mainTest(5, b);
+	return 0;
+}

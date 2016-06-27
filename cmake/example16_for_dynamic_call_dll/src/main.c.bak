@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <windows.h>
+
+typedef void (*f)(char *);
+typedef int TYPE_INT;
+
+typedef bool (* SetInitializeToShell)();
+typedef bool (* SetUnInitializeToShell)();
+
+int main()
+{
+    TYPE_INT a;
+    SetInitializeToShell show_hello = NULL;
+    
+	HINSTANCE hdll = LoadLibrary("NavShell.dll");
+	if (hdll == NULL) {
+		FreeLibrary(hdll);
+		printf("LoadLibrary libhello.dll failed!\n");
+
+		return 1;
+	}
+
+    if (show_hello == NULL) {
+        printf("show_hello is NULL");
+    }
+    
+	show_hello = (SetInitializeToShell)GetProcAddress(hdll, "SetInitializeToShell");
+	
+    if (show_hello == NULL) {
+        printf("show_hello is NULL");
+    }
+
+//	hello("Form hello World");
+	show_hello("tony");
+
+	return 0;
+} 

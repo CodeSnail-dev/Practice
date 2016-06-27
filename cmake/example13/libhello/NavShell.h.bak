@@ -1,0 +1,11 @@
+#ifndef DBZHANG_HELLO_
+#define DBZHANG_HELLO_
+
+#ifdef WIN32
+#define DllExport __declspec( dllexport )
+#else
+#define DllExport __declspec( dllimport )
+#endif
+
+LIBHELLO_API void navShellStart(const char* name);
+#endif //DBZHANG_HELLO_

@@ -1,0 +1,88 @@
+#include "CommonInterface.h"
+#include <iostream>
+#include <stdio.h>
+#include <windows.h>
+
+#if defined _WIN32
+	#ifdef WIN32
+		#define DllExport __declspec( dllexport )
+	#else
+		#define DllExport __declspec( dllimport )
+	#endif
+#else
+	#define DllExport
+#endif
+
+DllExport typedef void *(* TN_Initialize)();
+DllExport typedef void (* TN_UnInitialize)(void *);
+DllExport typedef bool (* TN_StartNavigation)(void);
+DllExport typedef bool (* TN_EndNavigation)(void);
+DllExport typedef bool (* TN_ShowNavigation)(int, int, int, int);
+DllExport typedef bool (* TN_HideNavigation)(void);
+DllExport typedef bool (* TN_SendNavigationInfo)(E_DATA_TYPE, int, void *, int);
+DllExport typedef bool (* TN_SetCallBackFunction)(CallbackFunction);
+DllExport typedef bool (* TN_SetCalibrationData)(TN_CAL_DATA_LIST_T*);
+
+DllExport typedef bool (* TN_GetNaviVersion)(char **);
+DllExport typedef bool (* TN_CheckMapUpdate)(char *);
+DllExport typedef bool (* TN_StartMapUpdate)(char *);
+DllExport typedef bool (* TN_GetMapDataVersion)(char *, char *);
+DllExport typedef bool (* TN_GetModuleVersion)(char *);
+
+// Test usage by Telenav.
+DllExport typedef bool(* TN_SendNaviInfo)(int, int, void *, int);
+//bool GetMapDataVersion(const char *strUrl, char **strVersion) ;
+
+//enum CALLBACKTOSHELL_TYPE {
+//	TN_INITIALIZE;
+//	TN_UNINITIALIZE;
+//	TN_STARTNAVIGATION;
+//	TN_ENDNAVIGATION;
+//	TN_SHOWNAVIGATION;
+//	TN_HIDENAVIGATION;
+//	TN_SENDNAVIGATIONINFO;
+//	TN_SETCALLBACKFUNCTION;
+//	TN_GETNAVIVERSION;
+//	TN_CHECKMAPUPDATE;
+//	TN_STARTMAPUPDATE;
+//	TN_GETMAPDATAVERSION;
+//	TN_GETMODULEVERSION;
+//}
+
+DllExport typedef struct  {
+	TN_Initialize Initialize;
+	TN_UnInitialize UnInitialize;
+	TN_StartNavigation StartNavigation;
+	TN_EndNavigation EndNavigation;
+	TN_ShowNavigation ShowNavigation;
+	TN_HideNavigation HideNavigation;
+	TN_SendNavigationInfo SendNavigationInfo;
+	TN_SetCallBackFunction SetCallBackFunction;
+	TN_SetCalibrationData SetCalibrationData;
+	TN_GetNaviVersion GetNaviVersion;
+	TN_CheckMapUpdate CheckMapUpdate;
+	TN_StartMapUpdate StartMapUpdate;
+	TN_GetMapDataVersion GetMapDataVersion;
+	TN_GetModuleVersion GetModuleVersion;
+} CallbackFuncitonsToShell;
+
+CallbackFuncitonsToShell callbackFuncitonsToShell;
+
+DllExport bool setInitializeToShell(TN_Initialize Initialize);
+DllExport bool setUnInitializeToShell(TN_UnInitialize UnInitialize);
+DllExport bool setStartNavigationToShell(TN_StartNavigation StartNavigation);
+DllExport bool setEndNavigationToShell(TN_EndNavigation EndNavigation);
+DllExport bool setShowNavigationToShell(TN_ShowNavigation ShowNavigation);
+DllExport bool setHideNavigationToShell(TN_HideNavigation HideNavigation);
+DllExport bool setSendNavigationInfoToShell(TN_SendNavigationInfo SendNavigationInfo);
+DllExport bool setSetCallBackFunctionToShell(TN_SetCallBackFunction SetCallBackFunction);
+DllExport bool setSetCalibrationDataToShell(TN_SetCalibrationData SetCalibrationData);
+DllExport bool setGetNaviVersionToShell(TN_GetNaviVersion GetNaviVersion);
+DllExport bool setCheckMapUpdateToShell(TN_CheckMapUpdate CheckMapUpdate);
+DllExport bool setStartMapUpdateToShell(TN_StartMapUpdate StartMapUpdate);
+DllExport bool setGetMapDataVersionToShell(TN_GetMapDataVersion GetMapDataVersion);
+DllExport bool setGetModuleVersionToShell(TN_GetModuleVersion GetModuleVersion);
+
+void CB_ReceiveMessage(int /* out */ *pStatus, int /* out */ *pnValue, void /* out */ *pData, int nSize_t);
+
+DllExport int shellStartUp();

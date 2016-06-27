@@ -1,0 +1,159 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_667d5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/17/2016 3:52:29 PM.
+Project "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_667d5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_667d5.dir\Debug\".
+  Creating directory "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_667d5.dir\Debug\cmTC_667d5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_667d5.dir\Debug\cmTC_667d5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\application\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\application\Qt\4.8.1\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_667d5.dir\Debug\\" /Fd"cmTC_667d5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\application\Qt\4.8.1\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_667d5.dir\Debug\\" /Fd"cmTC_667d5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_667d5.vcxproj]
+Done Building Project "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_667d5.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_667d5.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_667d5.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.58
+
+File D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_458f5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/17/2016 3:52:31 PM.
+Project "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_458f5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_458f5.dir\Debug\".
+  Creating directory "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_458f5.dir\Debug\cmTC_458f5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_458f5.dir\Debug\cmTC_458f5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\application\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\application\Qt\4.8.1\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_458f5.dir\Debug\\" /Fd"cmTC_458f5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\application\Qt\4.8.1\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_458f5.dir\Debug\\" /Fd"cmTC_458f5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_458f5.vcxproj]
+Done Building Project "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_458f5.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_458f5.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_458f5.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.50
+
+File D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4a7cb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/17/2016 3:52:31 PM.
+Project "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_4a7cb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4a7cb.dir\Debug\".
+  Creating directory "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4a7cb.dir\Debug\cmTC_4a7cb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4a7cb.dir\Debug\cmTC_4a7cb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  D:\application\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\application\Qt\4.8.1\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4a7cb.dir\Debug\\" /Fd"cmTC_4a7cb.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /ID:\application\Qt\4.8.1\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4a7cb.dir\Debug\\" /Fd"cmTC_4a7cb.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_4a7cb.vcxproj]
+Done Building Project "D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_4a7cb.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_4a7cb.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [D:\git_project\Practice\cmake\cmake_moudle_message\build\CMakeFiles\CMakeTmp\cmTC_4a7cb.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.54
+
+File D:/git_project/Practice/cmake/cmake_moudle_message/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

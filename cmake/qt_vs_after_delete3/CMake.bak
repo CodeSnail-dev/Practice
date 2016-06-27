@@ -1,0 +1,28 @@
+#############create a project#######################################
+cmake_minimum_required(VERSION 2.8)
+
+project(NavWIN32SHELL)
+SET(TARGET_NAME "NavWIN32SHELL")
+
+MESSAGE(STATUS "CMAKE_PLATFORM: " ${CMAKE_PLATFORM})
+
+if(${CMAKE_PLATFORM} STREQUAL "win32") 
+  find_package(Qt4 4.7.4 COMPONENTS QtCore QtGui QtOpenGL QtXmlPatterns QtNetwork REQUIRED)
+endif() 
+
+
+############setup head file path######################################
+#Reference library
+#include_directories(${PROJECT_SOURCE_DIR}/test/fused-src)
+#include_directories(${PROJECT_SOURCE_DIR}/modules/${TNPLATFORM}/include/)
+
+###############setup source files###################################
+AUX_SOURCE_DIRECTORY(${PROJECT_SOURCE_DIR}/src/Shell/win32 SOURCE_FILES)
+
+#link libs
+#link_directories(${PROJECT_SOURCE_DIR}/modules/${TNPLATFORM}/TelenavAutoNavSDK/lib)##
+
+if(${CMAKE_PLATFORM} STREQUAL "win32")
+#	QT4_WRAP_CPP(MOC_SRCS ${HEADER_FILES})
+	add_executable(${TARGET_NAME} ${SOURCE_FILES})
+endif()

@@ -1,0 +1,8 @@
+project(Hello)
+SET( CMAKE_VERBOSE_MAKEFILE on )
+message(${PROJECT_SOURCE_DIR})
+set(SRC_LIST main.c)
+#add_executable(Hello ${SRC_LIST})
+add_library(libHello hello.c)
+add_executable(Hello ${SRC_LIST})
+target_link_libraries(Hello libHello)

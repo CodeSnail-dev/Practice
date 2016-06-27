@@ -1,0 +1,13 @@
+#############create a project#######################################
+cmake_minimum_required(VERSION 2.8)
+project(NavWin32Shell)
+message(STATUS "CMAKE_PLATFORM: " ${CMAKE_PLATFORM})
+message(STATUS "CMAKE_PLATFORM: " ${CMAKE_SYSTEM})
+
+if( CMAKE_PLATFORM STREQUAL "win32")
+	message(STATUS "Platform IS Win32: " ${CMAKE_PLATFORM})
+
+ENDIF()
+
+set(PROJECTNAME "NavWin32Shell")
+add_executable(${PROJECTNAME} src/Shell/win32/main.c)
